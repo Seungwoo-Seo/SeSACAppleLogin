@@ -26,6 +26,7 @@ class MainViewController: UIViewController {
 class ViewController: UIViewController {
 
     @IBOutlet weak var appleLoginButton: ASAuthorizationAppleIDButton!
+    @IBOutlet weak var faceIDButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,6 +48,10 @@ class ViewController: UIViewController {
         controller.delegate = self
         controller.presentationContextProvider = self
         controller.performRequests()
+    }
+
+    @IBAction func didTapFaceIDButton(_ sender: UIButton) {
+        
     }
 
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		570C72DF2B3E635300E61FC2 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C72DE2B3E635300E61FC2 /* AuthenticationManager.swift */; };
 		5715F2EB2B3D02C2008C0A45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715F2EA2B3D02C2008C0A45 /* AppDelegate.swift */; };
 		5715F2ED2B3D02C2008C0A45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715F2EC2B3D02C2008C0A45 /* SceneDelegate.swift */; };
 		5715F2EF2B3D02C2008C0A45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715F2EE2B3D02C2008C0A45 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		570C72DE2B3E635300E61FC2 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		5715F2E72B3D02C2008C0A45 /* SeSACAppleLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSACAppleLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5715F2EA2B3D02C2008C0A45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5715F2EC2B3D02C2008C0A45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				5715F2FE2B3D0C3B008C0A45 /* SeSACAppleLogin.entitlements */,
 				5715F2EA2B3D02C2008C0A45 /* AppDelegate.swift */,
 				5715F2EC2B3D02C2008C0A45 /* SceneDelegate.swift */,
+				570C72DE2B3E635300E61FC2 /* AuthenticationManager.swift */,
 				5715F2EE2B3D02C2008C0A45 /* ViewController.swift */,
 				5715F2F02B3D02C2008C0A45 /* Main.storyboard */,
 				5715F2F32B3D02C7008C0A45 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5715F2EF2B3D02C2008C0A45 /* ViewController.swift in Sources */,
+				570C72DF2B3E635300E61FC2 /* AuthenticationManager.swift in Sources */,
 				5715F2EB2B3D02C2008C0A45 /* AppDelegate.swift in Sources */,
 				5715F2ED2B3D02C2008C0A45 /* SceneDelegate.swift in Sources */,
 			);
