@@ -17,6 +17,17 @@ class MainViewController: UIViewController {
 
 }
 
+/*
+ 1. Build Configuration : Debug Release Test Premium
+
+ */
+
+/*
+ Appstore Reject App CrashLog .txt File
+ .txt -> .crash
+ Device and Simulator > View Console Log > Open Xcode Project
+ */
+
 
 /*
  소셜 로그인(페북/구글/카카오..), 애플 로그인 구현 필수 (미구현 시 리젝사유)
@@ -36,6 +47,17 @@ class ViewController: UIViewController {
             action: #selector(didTapAppleLoginButton),
             for: .touchUpInside
         )
+
+        guard let configuration = Bundle.main.object(forInfoDictionaryKey: "CFBundleIdentifier") as? String else {
+            print("configuration info error")
+            return
+        }
+
+        if configuration == "com.prodvssw.98.SeSACAppleLoginPremium" {
+            view.backgroundColor = .gray
+        } else {
+            view.backgroundColor = .green
+        }
     }
 
     @objc
